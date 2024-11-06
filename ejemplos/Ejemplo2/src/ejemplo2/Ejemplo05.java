@@ -45,7 +45,9 @@ public class Ejemplo05 {
                     promedio, nota1, nota2);
         }else{
             System.out.printf("Estudiante reprobado con un "
-                    + "promedio: %.2f\n", promedio);
+                    + "promedio: %.2f\nLas notas ingresadas fueron:\n\t"
+                    + "Nota 1: %.2f\n\tNota 2: %.2f\nSecretaria General", 
+                    promedio, nota1, nota2);
         }
     }
     
