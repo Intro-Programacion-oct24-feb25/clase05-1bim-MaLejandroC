@@ -24,13 +24,13 @@ public class Ejemplo5 {
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
 
-        if (!ciudad.equals("Loja")) {
+        if (!ciudad.equals("Loja")) { //negando la igualdad
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
         }
 
-        int numero = 10;
+        int numero = 9;
 
         if (numero != 10) {
             System.out.println("correcto");
