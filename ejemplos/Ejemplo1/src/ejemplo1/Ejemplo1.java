@@ -8,6 +8,7 @@
  */
 package ejemplo1;
 
+import java.util.Scanner;
 /**
  *
  * @author reroes
@@ -15,9 +16,11 @@ package ejemplo1;
 public class Ejemplo1 {
 
     public static void main(String[] args) {
+        
+        Scanner dato = new Scanner(System.in);
         // Condicionales simplesmain
-
-        double promedio = 7.5;
+        Double promedio;
+        promedio = dato.nextDouble();
 
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
